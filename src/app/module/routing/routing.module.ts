@@ -4,6 +4,7 @@ import {RouterModule} from '@angular/router';
 import {WelcomePageComponent} from '../../comp/welcome-page/welcome-page.component';
 import {PricesComponent} from '../../comp/prices/prices.component';
 import {ScheduleComponent} from "../../comp/schedule/schedule.component";
+import {AboutComponent} from "../../comp/about/about.component";
 
 
 const ROUTES = [
@@ -11,6 +12,7 @@ const ROUTES = [
   , {path: 'prices', component : PricesComponent}
   // , {path: 'about', component : AboutComponent}
    , {path: 'schedule', component : ScheduleComponent}
+  , {path: 'about', component : AboutComponent}
   , {path: '', redirectTo: 'home', pathMatch: 'full'}
 
 ]

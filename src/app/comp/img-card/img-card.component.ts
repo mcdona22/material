@@ -9,6 +9,7 @@ export class ImgCardComponent implements OnInit {
   @Input() title: string;
   @Input() content: string;
   @Input() graphic: string;
+  @Input() routerLink:string;
 
   constructor() { }
 

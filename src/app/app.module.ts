@@ -14,6 +14,7 @@ import { WelcomePageComponent } from './comp/welcome-page/welcome-page.component
 import { PricesComponent } from './comp/prices/prices.component';
 import { PriceComponent } from './comp/price/price.component';
 import { ScheduleComponent } from './comp/schedule/schedule.component';
+import { AboutComponent } from './comp/about/about.component';
 
 @NgModule({
   declarations: [
@@ -24,7 +25,8 @@ import { ScheduleComponent } from './comp/schedule/schedule.component';
     WelcomePageComponent,
     PricesComponent,
     PriceComponent,
-    ScheduleComponent
+    ScheduleComponent,
+    AboutComponent
   ],
   imports: [
     BrowserModule,
