@@ -3,13 +3,14 @@ import { CommonModule } from '@angular/common';
 import {RouterModule} from '@angular/router';
 import {WelcomePageComponent} from '../../comp/welcome-page/welcome-page.component';
 import {PricesComponent} from '../../comp/prices/prices.component';
+import {ScheduleComponent} from "../../comp/schedule/schedule.component";
 
 
 const ROUTES = [
   {path: 'home', pathMatch: 'full', component: WelcomePageComponent}
   , {path: 'prices', component : PricesComponent}
   // , {path: 'about', component : AboutComponent}
-  // , {path: 'schedule', component : ScheduleComponent}
+   , {path: 'schedule', component : ScheduleComponent}
   , {path: '', redirectTo: 'home', pathMatch: 'full'}
 
 ]

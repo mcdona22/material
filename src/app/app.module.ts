@@ -13,6 +13,7 @@ import { ImgCardComponent } from './comp/img-card/img-card.component';
 import { WelcomePageComponent } from './comp/welcome-page/welcome-page.component';
 import { PricesComponent } from './comp/prices/prices.component';
 import { PriceComponent } from './comp/price/price.component';
+import { ScheduleComponent } from './comp/schedule/schedule.component';
 
 @NgModule({
   declarations: [
@@ -22,7 +23,8 @@ import { PriceComponent } from './comp/price/price.component';
     ImgCardComponent,
     WelcomePageComponent,
     PricesComponent,
-    PriceComponent
+    PriceComponent,
+    ScheduleComponent
   ],
   imports: [
     BrowserModule,
